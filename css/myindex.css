@@ -1,0 +1,72 @@
+.el-header {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 140px;
+    height: 150px;
+}
+
+.el-header>span>div:nth-child(1) {
+    color: rgb(161, 163, 168);
+    font-size: 40px;
+    position: relative;
+    height: 100px;
+    right: 40px;
+    width: 375px;
+    bottom: 20px;
+}
+
+.el-header>span>div:nth-child(2) {
+    color: rgba(162, 165, 170, 0.507);
+    position: relative;
+    float: right;
+    font-size: 25px;
+    width: 150px;
+    bottom: 50px;
+    height: 30px;
+}
+
+.el-main {
+    background-color: #FFFFFF;
+    color: #333;
+    text-align: center;
+    line-height: 620px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.item {
+    padding: 18px 0;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.item {
+    margin-bottom: 18px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+#login-form>.box-card {
+    width: 480px;
+}
+
+#login-form,#register-form{
+    margin: 0 auto;
+}
+
+#register-form>.box-card {
+    width: 680px;
+    height: 550px;
+}
